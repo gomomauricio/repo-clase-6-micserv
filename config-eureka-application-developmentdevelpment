@@ -1,0 +1,10 @@
+#nombre del servidor
+spring.application.name=spring-cloud-eureka-server
+##por convencion es este puerto
+server.port=8761
+##registrarlo como cliente (auto registro)
+eureka.client.register-with-eureka=false
+eureka.client.fetch-registry=false
+
+
+##todo lo toma del cloud
